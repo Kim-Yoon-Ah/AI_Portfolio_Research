@@ -10,6 +10,11 @@ import yfinance as yf
 
 from forecast_dashboard import get_market_forecast_results
 
+st.set_page_config(
+    page_title="AI Portfolio Research",
+    page_icon="📊",
+    layout="wide"
+)
 
 @dataclass(frozen=True)
 class PortfolioConfig:
